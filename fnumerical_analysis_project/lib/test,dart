@@ -1,0 +1,11 @@
+import 'package:math_expressions/math_expressions.dart';
+
+void main() {
+  final parser = Parser();
+  try {
+    var exp = parser.parse('(-9/10)*pow(x,2)+(17/10)*x+(25/10)');
+    print('Parsed: $exp');
+  } catch (e) {
+    print('Manual parse error: $e');
+  }
+}

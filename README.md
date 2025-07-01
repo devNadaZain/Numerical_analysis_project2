@@ -1,5 +1,9 @@
 # Numerical Analysis App 📐
 
+
+
+
+
 A **Flutter-based mobile app** with a **Python Flask backend**, designed to solve numerical analysis problems with ease. Featuring intuitive method navigation, function plotting, and calculation history, **Root Finder** is the ultimate tool for students and professionals diving into numerical methods. 🌟
 
 ---
@@ -231,11 +235,13 @@ Solve `Ax = b` with:
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Video
 
-```markdown
-![Alt Text](screenshots/your-image.png)
-```
+
+
+https://github.com/user-attachments/assets/92f14da0-42cf-4e4f-b1e5-f3a3a3705e37
+
+
 
 ---
 

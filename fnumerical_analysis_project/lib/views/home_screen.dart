@@ -12,8 +12,9 @@ import 'package:flutter/services.dart'; // For clipboard access
 
 class HomeScreen extends StatefulWidget {
   final String? initialMethod;
+  final String? initialEquation;
 
-  const HomeScreen({Key? key, this.initialMethod}) : super(key: key);
+  const HomeScreen({Key? key, this.initialMethod, this.initialEquation}) : super(key: key);
 
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -1695,3 +1696,4 @@ class _HomeScreenState extends State<HomeScreen>
     );
   }
 }
+

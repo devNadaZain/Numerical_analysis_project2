@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
           titleTextStyle: GoogleFonts.poppins(
               fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           elevation: 3,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
@@ -80,7 +80,7 @@ class MyApp extends StatelessWidget {
           titleTextStyle: GoogleFonts.poppins(
               fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: Color(0xFF1F1F1F),
           elevation: 3,
           shape: RoundedRectangleBorder(
